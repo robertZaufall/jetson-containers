@@ -2,7 +2,7 @@
 # name: faiss
 # group: vectordb
 # config: config.py
-# depends: [cuda, numpy, cmake]
+# depends: [cuda, cudnn, numpy, cmake]
 # test: [test.py]
 #---
 ARG BASE_IMAGE
